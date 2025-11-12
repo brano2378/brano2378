@@ -43,12 +43,12 @@
 #define TR_QM_MIXES                     "Mixy"
 #define TR_QM_OUTPUTS                   "Výstupy"
 #define TR_QM_CURVES                    "Krivky"
-#define TR_QM_GLOBAL_VARS               "Global\nVariables"
-#define TR_QM_LOGICAL_SW                "Logical\nSwitches"
-#define TR_QM_SPEC_FUNC                 "Special\nFunctions"
-#define TR_QM_CUSTOM_LUA                "Custom\nScripts"
+#define TR_QM_GLOBAL_VARS               "Globálne\nVariables"
+#define TR_QM_LOGICAL_SW                "Logické\nSwitches"
+#define TR_QM_SPEC_FUNC                 "Špeciálne\nFunctions"
+#define TR_QM_CUSTOM_LUA                "Vlastné\nScripts"
 #define TR_QM_TELEM                     "Telemetria"
-#define TR_QM_GLOB_FUNC                 "Global\nFunctions"
+#define TR_QM_GLOB_FUNC                 "Globálne\nFunctions"
 #define TR_QM_TRAINER                   "Tréner"
 #define TR_QM_HARDWARE                  "Hardware"
 #define TR_QM_ABOUT                     "O\nEdgeTX"
@@ -86,8 +86,8 @@
 #define TR_MAIN_MENU_THEMES                 "Motívy"
 #define TR_MAIN_MENU_APPS               "Aplikácie"
 #define TR_MENUHELISETUP               "HELI"
-#define TR_MENUFLIGHTMODES             TR_SFC_AIR("REŽIM JÍZDA", "LETOVÉ REŽIMY")
-#define TR_MENUFLIGHTMODE              TR_SFC_AIR("REŽIM JÍZDA", "LETOVÝ REŽIM")
+#define TR_MENUFLIGHTMODES             TR_SFC_AIR("REŽIM JAZDA", "LETOVÉ REŽIMY")
+#define TR_MENUFLIGHTMODE              TR_SFC_AIR("REŽIM JAZDA", "LETOVÝ REŽIM")
 #define TR_MENUINPUTS                  "Vstupy"
 #define TR_MENULIMITS                  "Servá"
 #define TR_MIXES                       "Mixy"
@@ -117,7 +117,7 @@
 #define TR_MMMINV_1                    "---"
 #define TR_MMMINV_2                    "INV"
 #define TR_VBEEPMODE_1                 "Tichý"
-#define TR_VBEEPMODE_2                 TR("Alarm","Jen Alarm")
+#define TR_VBEEPMODE_2                 TR("Alarm","Len Alarm")
 #define TR_VBEEPMODE_3                 TR("BezKl","Bez kláves")
 #define TR_VBEEPMODE_4                 "Všetko"
 #define TR_COUNTDOWNVALUES_1           "5s"
@@ -153,8 +153,7 @@
 #define TR_SWTYPES_5                   "Globálny"
 #define TR_POTTYPES_1                  "Žiadny"
 #define TR_POTTYPES_2                  TR("Pot","Potenciometer")
-#define TR_POTTYPES_3                  TR("Pot s aret.","Pot s aretací")
-#define TR_POTTYPES_4                  "Slider"
+#define TR_POTTYPES_3                  TR("Pot s aret.","Pot s aretáciou
 #define TR_POTTYPES_5                  TR("Vícepol př.","Vícepol. přep.")
 #define TR_POTTYPES_6                  "Os X"
 #define TR_POTTYPES_7                  "Os Y"
@@ -187,7 +186,7 @@
 #define TR_VBEEPCOUNTDOWN_1            "Nie"
 #define TR_VBEEPCOUNTDOWN_2            "Zvuk"
 #define TR_VBEEPCOUNTDOWN_3            "Hlas"
-#define TR_VBEEPCOUNTDOWN_4            "Vibráice"
+#define TR_VBEEPCOUNTDOWN_4            "Vibrácie"
 #define TR_VBEEPCOUNTDOWN_5            TR("Zv & Vib","Zvuk & Vibrace")
 #define TR_VBEEPCOUNTDOWN_6            TR("Hl & Vib", "Hlas & Vibrace")
 #define TR_VVARIOCENTER_1              "Tón"
@@ -419,7 +418,7 @@
 #define TR_VCELLINDEX_11               "Delta"
 #define TR_SUBTRIMMODES_1              CHAR_DELTA"(len stredy)"
 #define TR_SUBTRIMMODES_2              "= (symetrický)"
-#define TR_TIMER_DIR_1                 TR("Zbývající", "Zobraziť zostávajúci")
+#define TR_TIMER_DIR_1                 TR("Zostávajúci", "Zobraziť zostávajúci")
 #define TR_TIMER_DIR_2                 TR("Uplynulý", "Zobraziť uplynulý")
 
 #define TR_FONT_SIZES_1                "STD"
@@ -548,51 +547,51 @@
 #define TR_RSSI_SHUTDOWN_ALARM         TR("Rssi pri vyp.", "Strážiť RSSI pri vypnutí")
 #define TR_FLYSKY_TELEMETRY            TR("FlySky RSSI #", "Použiť FlySky RSSI hodnotu bez škálovania")
 #define TR_TRAINER_SHUTDOWN_ALARM      TR("Tréner vypnutý", "Kontrola trénera pri vypnutí")
-#define TR_MODEL_STILL_POWERED         "Model stále spuštěn"
-#define TR_TRAINER_STILL_CONNECTED     "Trenér stále připojen"
-#define TR_USB_STILL_CONNECTED         "USB stále připojeno"
-#define TR_MODEL_SHUTDOWN              "Vypnout?"
-#define TR_PRESS_ENTER_TO_CONFIRM      "Zmáčkni ENTER pro potvrzení"
+#define TR_MODEL_STILL_POWERED         "Model stále spustený"
+#define TR_TRAINER_STILL_CONNECTED     "Tréner stále pripojený"
+#define TR_USB_STILL_CONNECTED         "USB stále pripojené"
+#define TR_MODEL_SHUTDOWN              "Vypnúť?"
+#define TR_PRESS_ENTER_TO_CONFIRM      "Stlač ENTER pre potvrdenie"
 #define TR_THROTTLE_LABEL              "Plyn"
-#define TR_THROTTLE_START              "Plyn Start"
+#define TR_THROTTLE_START              "Plyn Štart"
 #define TR_THROTTLEREVERSE             TR("ReverzPlyn", "Reverz plynu")
-#define TR_MINUTEBEEP                  TR("Minuta", "Oznamovat minuty")
+#define TR_MINUTEBEEP                  TR("Minúta", "Oznamovat minúty")
 #define TR_BEEPCOUNTDOWN               "Odpočet"
 #define TR_PERSISTENT                  "Trvalé"
-#define TR_BACKLIGHT_LABEL             "Podsvětlení"
-#define TR_GHOST_MENU_LABEL            "GHOST MENU"
+#define TR_BACKLIGHT_LABEL             ""
+#define TR_GHOST_MENU_LABEL            "Skyté Menu"
 #define TR_STATUS                      "Stav"
 #define TR_BLONBRIGHTNESS              "Jas zapnutého LCD"
 #define TR_BLOFFBRIGHTNESS             "Jas vypnutého LCD"
-#define TR_KEYS_BACKLIGHT              "Podsvětlení kláves"
-#define TR_BLCOLOR                     "Barva"
-#define TR_SPLASHSCREEN                TR("úvodní logo", "Zobrazit úvodní logo")
-#define TR_PLAY_HELLO                  "Zvuk při spuštění"
-#define TR_PWR_ON_DELAY                "Zpoždění zapnutí"
-#define TR_PWR_OFF_DELAY               "Zpoždění vypnutí"
+#define TR_KEYS_BACKLIGHT              "Podsvietenie kláves"
+#define TR_BLCOLOR                     "Farba"
+#define TR_SPLASHSCREEN                TR("úvodné logo", "Zobrazit úvodné logo")
+#define TR_PLAY_HELLO                  "Zvuk pri spustení"
+#define TR_PWR_ON_DELAY                "Opozdenie zapnutia"
+#define TR_PWR_OFF_DELAY               "Opozdenie vypnutia"
 #define TR_PWR_AUTO_OFF                TR("Pwr Auto Off","Power Auto Off")
-#define TR_PWR_ON_OFF_HAPTIC           TR("Zap ON/OFF vibrace","Zapnutí ON/OFF vibrace")
+#define TR_PWR_ON_OFF_HAPTIC           TR("Zap ON/OFF vibrácie","Zapnutie ON/OFF vibrácie")
 #define TR_THROTTLE_WARNING            TR("* Plyn", "Kontrola plynu")
-#define TR_CUSTOM_THROTTLE_WARNING     TR("Vlas-Poz", "Vlastní pozice?")
+#define TR_CUSTOM_THROTTLE_WARNING     TR("Vlas-Poz", "Vlastná pozícia?")
 #define TR_CUSTOM_THROTTLE_WARNING_VAL TR("Poz. %", "Pozice %")
-#define TR_SWITCHWARNING               TR("* Spínače", "Polohy spínačů")
+#define TR_SWITCHWARNING               TR("* Spínače", "Polohy spínačov")
 #define TR_POTWARNINGSTATE             "Kontrola Pot&Slid."
-#define TR_POTWARNING                  TR("* Potenc.", "Potenciometry")
+#define TR_POTWARNING                  TR("* Potenc.", "Potenciometre")
 #define TR_TIMEZONE                    "Časové pásmo"
-#define TR_ADJUST_RTC                  TR("Čas z GPS", "Použít čas z GPS")
+#define TR_ADJUST_RTC                  TR("Čas z GPS", "Použiť čas z GPS")
 #define TR_GPS                         "GPS"
-#define TR_DEF_CHAN_ORD                TR("Def řaz kanálu", "Defaultní řazení kanálu")
-#define TR_STICKS                      "Osy"
-#define TR_POTS                        "Potenciometry"
+#define TR_DEF_CHAN_ORD                TR("Def rad kanálu", "Predefinované radenie kanálu")
+#define TR_STICKS                      "Osi"
+#define TR_POTS                        "Potenciometre"
 #define TR_SWITCHES                    "Spínače"
-#define TR_SWITCHES_DELAY              TR("Filtr přepínače", "Filtr poloh přepínače")
-#define TR_SLAVE                       "Podřízený"
+#define TR_SWITCHES_DELAY              TR("Filter přepínača", "Filter polôh přepínača")
+#define TR_SLAVE                       "Podriadený"
 #define TR_MODESRC                     "Mód\006% Zdroj"
 #define TR_MULTIPLIER                  "Násobič"
 #define TR_CAL                         "Kal."
-#define TR_CALIBRATION                 BUTTON("Kalibrace")
+#define TR_CALIBRATION                 BUTTON("Kalibrácia")
 #define TR_VTRIM                       "Trim - +"
-#define TR_CALIB_DONE                  "Kalibrace dokončena"
+#define TR_CALIB_DONE                  "Kalibrácia dokončená"
 #define TR_MENUTOSTART                 TR_ENTER " = START"
 #define TR_MENUWHENDONE                TR_ENTER " > DALŠÍ"
 #define TR_AXISDIR                     "AXIS DIR"
