@@ -83,9 +83,9 @@
 #define TR_MAIN_MENU_STATISTICS         "Štatistiky"
 #define TR_MAIN_MENU_ABOUT_EDGETX       "O EdgeTX"
 #define TR_MAIN_VIEW_X                  "Obrazovka "
-#define TR_MAIN_MENU_THEMES                 "Motívy"
+#define TR_MAIN_MENU_THEMES             "Motívy"
 #define TR_MAIN_MENU_APPS               "Aplikácie"
-#define TR_MENUHELISETUP               "HELI"
+#define TR_MENUHELISETUP                "HELI"
 #define TR_MENUFLIGHTMODES             TR_SFC_AIR("REŽIM JAZDA", "LETOVÉ REŽIMY")
 #define TR_MENUFLIGHTMODE              TR_SFC_AIR("REŽIM JAZDA", "LETOVÝ REŽIM")
 #define TR_MENUINPUTS                  "Vstupy"
@@ -352,18 +352,18 @@
                                        " Hore = PRED/ZVÝŠ\n"\
                                        " Dole = ĎALŠÍ/ZNÍŽ"
 
-#define TR_ROTARY_ENC_OPT_1       "Normál"
-#define TR_ROTARY_ENC_OPT_2       "Invertovaný"
-#define TR_ROTARY_ENC_OPT_3       "V-I H-N"
-#define TR_ROTARY_ENC_OPT_4       "V-I H-A"
-#define TR_ROTARY_ENC_OPT_5       "V-N E-I"
+#define TR_ROTARY_ENC_OPT_1            "Normál"
+#define TR_ROTARY_ENC_OPT_2            "Invertovaný"
+#define TR_ROTARY_ENC_OPT_3            "V-I H-N"
+#define TR_ROTARY_ENC_OPT_4            "V-I H-A"
+#define TR_ROTARY_ENC_OPT_5            "V-N E-I"
 
-#define TR_IMU_VSRCRAW_1             "TltX"
-#define TR_IMU_VSRCRAW_2             "TltY"
+#define TR_IMU_VSRCRAW_1               "TltX"
+#define TR_IMU_VSRCRAW_2               "TltY"
 
-#define TR_CYC_VSRCRAW_1             "CYC1"
-#define TR_CYC_VSRCRAW_2             "CYC2"
-#define TR_CYC_VSRCRAW_3             "CYC3"
+#define TR_CYC_VSRCRAW_1               "CYC1"
+#define TR_CYC_VSRCRAW_2               "CYC2"
+#define TR_CYC_VSRCRAW_3               "CYC3"
 
 #define TR_SRC_BATT                    "Bat."
 #define TR_SRC_TIME                    "Čas"
