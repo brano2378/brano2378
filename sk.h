@@ -32,28 +32,28 @@
  */
 
 // Main menu
-#define TR_QM_MANAGE_MODELS             "Manage\nModels"
-#define TR_QM_MODEL_SETUP               "Model\nSetup"
-#define TR_QM_RADIO_SETUP               "Radio\nSetup"
-#define TR_QM_UI_SETUP                  "UI\nSetup"
+#define TR_QM_MANAGE_MODELS             "Správa\nModelov"
+#define TR_QM_MODEL_SETUP               "Model\nNastavenia"
+#define TR_QM_RADIO_SETUP               "Rádio\nNastavenia"
+#define TR_QM_UI_SETUP                  "UI\nNastavenia"
 #define TR_QM_TOOLS                     "Nástroje"
-#define TR_QM_GEN_SETTINGS              "General\nSettings"
+#define TR_QM_GEN_SETTINGS              "Hlavné\nNastavenia"
 #define TR_QM_FLIGHT_MODES              TR_SFC_AIR("Drive\nModes", "Flight\nModes")
 #define TR_QM_INPUTS                    "Vstupy"
 #define TR_QM_MIXES                     "Mixy"
 #define TR_QM_OUTPUTS                   "Výstupy"
 #define TR_QM_CURVES                    "Krivky"
-#define TR_QM_GLOBAL_VARS               "Globálne\nVariables"
-#define TR_QM_LOGICAL_SW                "Logické\nSwitches"
-#define TR_QM_SPEC_FUNC                 "Špeciálne\nFunctions"
-#define TR_QM_CUSTOM_LUA                "Vlastné\nScripts"
+#define TR_QM_GLOBAL_VARS               "Globálne\nPremenné"
+#define TR_QM_LOGICAL_SW                "Logické\nSpínače"
+#define TR_QM_SPEC_FUNC                 "Špeciálne\nFunkcie"
+#define TR_QM_CUSTOM_LUA                "Vlastné\nSkripty"
 #define TR_QM_TELEM                     "Telemetria"
-#define TR_QM_GLOB_FUNC                 "Globálne\nFunctions"
+#define TR_QM_GLOB_FUNC                 "Globálne\nFunkcie"
 #define TR_QM_TRAINER                   "Tréner"
 #define TR_QM_HARDWARE                  "Hardware"
 #define TR_QM_ABOUT                     "O\nEdgeTX"
 #define TR_QM_THEMES                    "Témy"
-#define TR_QM_TOP_BAR                   "Top Bar"
+#define TR_QM_TOP_BAR                   "Horná Lišta"
 #define TR_QM_SCREEN_1                  "Obrazovka 1"
 #define TR_QM_SCREEN_2                  "Obrazovka 2"
 #define TR_QM_SCREEN_3                  "Obrazovka 3"
@@ -64,7 +64,7 @@
 #define TR_QM_SCREEN_8                  "Obrazovka 8"
 #define TR_QM_SCREEN_9                  "Obrazovka 9"
 #define TR_QM_SCREEN_10                 "Obrazovka 10"
-#define TR_QM_ADD_SCREEN                "Pridať\nScreen"
+#define TR_QM_ADD_SCREEN                "Pridať\nObrazovku"
 #define TR_QM_APPS                      "Aplikácie"
 #define TR_QM_STORAGE                   "Úložisko"
 #define TR_QM_RESET                     TR_SFC_AIR("Drive\nReset", "Flight\nReset")
@@ -143,7 +143,7 @@
 #define TR_AUX_SERIAL_MODES_5          "LUA"
 #define TR_AUX_SERIAL_MODES_6          "CLI"
 #define TR_AUX_SERIAL_MODES_7          "GPS"
-#define TR_AUX_SERIAL_MODES_8          "Debug"
+#define TR_AUX_SERIAL_MODES_8          "Ladenie"
 #define TR_AUX_SERIAL_MODES_9          "SpaceMouse"
 #define TR_AUX_SERIAL_MODES_10         "Externý modul"
 #define TR_SWTYPES_1                   "Žiadny"
@@ -154,7 +154,7 @@
 #define TR_POTTYPES_1                  "Žiadny"
 #define TR_POTTYPES_2                  TR("Pot","Potenciometer")
 #define TR_POTTYPES_3                  TR("Pot s aret.","Pot s aretáciou
-#define TR_POTTYPES_5                  TR("Vícepol př.","Vícepol. přep.")
+#define TR_POTTYPES_5                  TR("Viacpol pr.","Viacpolohový prepínač")
 #define TR_POTTYPES_6                  "Os X"
 #define TR_POTTYPES_7                  "Os Y"
 #define TR_POTTYPES_8                  "Prepínač"
@@ -222,7 +222,7 @@
 
 #define TR_SOUND                       TR_BW_COL("\204\205Zvuk", "Prehrať zvuk")
 #define TR_PLAY_TRACK                  TR_BW_COL("\204\205Stopa", "Prehrať wav")
-#define TR_PLAY_VALUE                  TR_BW_COL("\204\205Hlásit ", "Hlásiť stav")
+#define TR_PLAY_VALUE                  TR_BW_COL("\204\205Hlásiť ", "Hlásiť stav")
 #define TR_SF_HAPTIC                   "Vibrovať"
 #define TR_SF_PLAY_SCRIPT              TR("Lua", "Lua Skript")
 #define TR_SF_BG_MUSIC                 TR_BW_COL("\204\205Hudba","Hudba")
@@ -239,7 +239,7 @@
 #define TR_SF_DISABLE_TOUCH            "Deaktivácia dotyku"
 #define TR_SF_DISABLE_AUDIO_AMP        "Vypnutie zosilovača zvuku"
 #define TR_SF_SET_SCREEN               TR_BW_COL("Nast obrazovku", "Vybrať hlavnú obrazovku")
-#define TR_SF_PUSH_CUST_SWITCH         "Push CS"
+#define TR_SF_PUSH_CUST_SWITCH         "Stlač CS"
 #define TR_SF_LCD_TO_VIDEO             "LCD to Video"
 
 #define TR_FSW_RESET_TELEM             TR("Telm","Telemetria")
@@ -399,7 +399,7 @@
 #define TR_VFORMULAS_4                 "Max"
 #define TR_VFORMULAS_5                 "Násobenie"
 #define TR_VFORMULAS_6                 "Celkom"
-#define TR_VFORMULAS_7                 "Článek"
+#define TR_VFORMULAS_7                 "Článok"
 #define TR_VFORMULAS_8                 "Spotreba"
 #define TR_VFORMULAS_9                 "Vzdialenosť"
 #define TR_VPREC_1                     "X"
@@ -555,7 +555,7 @@
 #define TR_THROTTLE_LABEL              "Plyn"
 #define TR_THROTTLE_START              "Plyn Štart"
 #define TR_THROTTLEREVERSE             TR("ReverzPlyn", "Reverz plynu")
-#define TR_MINUTEBEEP                  TR("Minúta", "Oznamovat minúty")
+#define TR_MINUTEBEEP                  TR("Minúta", "Oznamovať minúty")
 #define TR_BEEPCOUNTDOWN               "Odpočet"
 #define TR_PERSISTENT                  "Trvalé"
 #define TR_BACKLIGHT_LABEL             ""
@@ -573,7 +573,7 @@
 #define TR_PWR_ON_OFF_HAPTIC           TR("Zap ON/OFF vibrácie","Zapnutie ON/OFF vibrácie")
 #define TR_THROTTLE_WARNING            TR("* Plyn", "Kontrola plynu")
 #define TR_CUSTOM_THROTTLE_WARNING     TR("Vlas-Poz", "Vlastná pozícia?")
-#define TR_CUSTOM_THROTTLE_WARNING_VAL TR("Poz. %", "Pozice %")
+#define TR_CUSTOM_THROTTLE_WARNING_VAL TR("Poz. %", "Pozícia %")
 #define TR_SWITCHWARNING               TR("* Spínače", "Polohy spínačov")
 #define TR_POTWARNINGSTATE             "Kontrola Pot&Slid."
 #define TR_POTWARNING                  TR("* Potenc.", "Potenciometre")
@@ -584,7 +584,7 @@
 #define TR_STICKS                      "Osi"
 #define TR_POTS                        "Potenciometre"
 #define TR_SWITCHES                    "Spínače"
-#define TR_SWITCHES_DELAY              TR("Filter přepínača", "Filter polôh přepínača")
+#define TR_SWITCHES_DELAY              TR("Filter prepínača", "Filter polôh přepínača")
 #define TR_SLAVE                       "Podriadený"
 #define TR_MODESRC                     "Mód\006% Zdroj"
 #define TR_MULTIPLIER                  "Násobič"
@@ -596,48 +596,48 @@
 #define TR_MENUWHENDONE                TR_ENTER " > DALŠÍ"
 #define TR_AXISDIR                     "AXIS DIR"
 #define TR_MENUAXISDIR                 "[ENTER LONG] "  TR_AXISDIR
-#define TR_SETMIDPOINT                 TR_BW_COL(TR_SFC_AIR("NASTAVIT STŘED POTU", TR("NASTAVIT STŘED OSY", "STŘED OSY/SLIDERU")), "VYCENTROVAT OSY/SLIDERY")
-#define TR_MOVESTICKSPOTS              TR_BW_COL(TR_SFC_AIR("HÝBAT TOČIT/PLYN/POTY/OSY", "HÝBAT OSY/POTY"), "HÝBAT OSY/POTY")
-#define TR_NODATA                      "ŽÁDNÁ DATA"
+#define TR_SETMIDPOINT                 TR_BW_COL(TR_SFC_AIR("Nastaviť stred potenciometra", TR("Nastaviť stred osi", "Stred osi/Ťahového ovládača")), "Vycentrovať osi/ťahové ovládače")
+#define TR_MOVESTICKSPOTS              TR_BW_COL(TR_SFC_AIR("Hýbať točiť/Plyn/Potenciometre/Osi", "Hýbať osi/Potenciometre"), "Hýbať osi/Potenciometre")
+#define TR_NODATA                      "Žiadne dáta"
 #define TR_US                          "us"
 #define TR_HZ                          "Hz"
 
 #define TR_TMIXMAXMS                   "Tmix max"
 #define TR_FREE_STACK                  "Free stack"
-#define TR_INT_GPS_LABEL               "Vnitřní GPS"
-#define TR_HEARTBEAT_LABEL             "Heartbeat"
+#define TR_INT_GPS_LABEL               "Vnútorné GPS"
+#define TR_HEARTBEAT_LABEL             "Náčúvanie"
 #define TR_LUA_SCRIPTS_LABEL           "Lua skripty"
-#define TR_FREE_MEM_LABEL              "Free mem"
-#define TR_DURATION_MS             TR("[D]","Duration(ms): ")
+#define TR_FREE_MEM_LABEL              "Voľná pamäť"
+#define TR_DURATION_MS             TR("[D]","Zostatok(ms): ")
 #define TR_INTERVAL_MS             TR("[I]","Interval(ms): ")
-#define TR_MEM_USED_SCRIPT         "Script(B): "
+#define TR_MEM_USED_SCRIPT         "Skript(B): "
 #define TR_MEM_USED_WIDGET         "Widget(B): "
 #define TR_MEM_USED_EXTRA          "Extra(B): "
 #define TR_STACK_MIX                   "Mix: "
 #define TR_STACK_AUDIO                 "Audio: "
-#define TR_GPS_FIX_YES                 "Fix: Yes"
-#define TR_GPS_FIX_NO                  "Fix: No"
+#define TR_GPS_FIX_YES                 "Fix: Áno"
+#define TR_GPS_FIX_NO                  "Fix: Nie"
 #define TR_GPS_SATS                    "Sats: "
 #define TR_GPS_HDOP                    "Hdop: "
 #define TR_STACK_MENU                  "Menu: "
 #define TR_TIMER_LABEL                 "Časovač"
 #define TR_THROTTLE_PERCENT_LABEL      "Plyn %"
-#define TR_BATT_LABEL                  "Baterie"
-#define TR_SESSION                     "Relace"
+#define TR_BATT_LABEL                  "Batéria"
+#define TR_SESSION                     "Relácia"
 
 #define TR_MENUTORESET                 TR_ENTER" >> Reset"
 #define TR_PPM_TRAINER                 "TR"
 #define TR_CH                          "CH"
 #define TR_MODEL                       "MODEL"
 #define TR_FM                          TR_SFC_AIR("DM", "LR")
-#define TR_EEPROMLOWMEM                "Dochází EEPROM"
-#define TR_PRESS_ANY_KEY_TO_SKIP       TR("\003Klávesa >>> přeskočit", "Klávesa >>> přeskočit")
-#define TR_THROTTLE_NOT_IDLE           TR("\003Páka plynu je pohnutá", "Páka plynu není na nule")
-#define TR_ALARMSDISABLED              "Alarmy jsou zakázány"
-#define TR_PRESSANYKEY                 TR("\006Stiskni klávesu", "Stiskni klávesu")
-#define TR_BADEEPROMDATA               TR("\006Chyba dat EEPROM", "Chyba dat EEPROM")
-#define TR_BAD_RADIO_DATA              "Chybějící nebo poškozená data vysílače"
-#define TR_RADIO_DATA_RECOVERED        TR3("Použití zálohy dat TX","Použití zálohy dat vysílače","Nastavení vysílače bylo obnoveno ze zálohy")
+#define TR_EEPROMLOWMEM                "Dochádza EEPROM"
+#define TR_PRESS_ANY_KEY_TO_SKIP       TR("\003Klávesa >>> preskočiť", "Klávesa >>> preskočiť")
+#define TR_THROTTLE_NOT_IDLE           TR("\003Páka plynu je pohnutá", "Páka plynu nie je na nule")
+#define TR_ALARMSDISABLED              "Alarmy sú zakázané"
+#define TR_PRESSANYKEY                 TR("\006Stlač klávesu", "Stač klávesu")
+#define TR_BADEEPROMDATA               TR("\006Chyba dát EEPROM", "Chyba dát EEPROM")
+#define TR_BAD_RADIO_DATA              "Chybajúce alebo poškodené dáta vysielača"
+#define TR_RADIO_DATA_RECOVERED        TR3(" Použitie zálohy dát TX","Použitie zálohy dát vysielača","Nastavenie vysielača bolo obnovené zo zálohy")
 #define TR_RADIO_DATA_UNRECOVERABLE    TR3("Neplatné nastavení TX","Neplatné nastavení vysílače", "Nelze načíst platné nastavení vysílače")
 #define TR_EEPROMFORMATTING            TR("\004Formatování EEPROM", "Formatování EEPROM")
 #define TR_STORAGE_FORMAT              "Příprava úložiště"
