@@ -630,7 +630,7 @@
 #define TR_CH                          "CH"
 #define TR_MODEL                       "MODEL"
 #define TR_FM                          TR_SFC_AIR("DM", "LR")
-#define TR_EEPROMLOWMEM                "Dochádza EEPROM"
+#define TR_EEPROMLOWMEM                "Kapacita EEPROM je nízka"
 #define TR_PRESS_ANY_KEY_TO_SKIP       TR("\003Klávesa >>> preskočiť", "Klávesa >>> preskočiť")
 #define TR_THROTTLE_NOT_IDLE           TR("\003Páka plynu je pohnutá", "Páka plynu nie je na nule")
 #define TR_ALARMSDISABLED              "Alarmy sú zakázané"
@@ -651,52 +651,52 @@
 #define   TR_TRIMS2OFFSETS              TR_BW_COL("\006Trimy => Subtrimy", "Trimy => Subtrimy")
 #define TR_CHANNELS2FAILSAFE           "Kanály=>Failsafe"
 #define TR_CHANNEL2FAILSAFE            "Kanál=>Failsafe"
-#define TR_MENUMODELSEL                "MODEL"
-#define TR_MENU_MODEL_SETUP            "NASTAVENÍ"
+#define TR_MENUMODELSEL                "Model"
+#define TR_MENU_MODEL_SETUP            "Nastavenie"
 
 #define TR_MENUCURVE                   "\002K"
-#define TR_MENULOGICALSWITCH           "LOG. SPÍNAČ"
-#define TR_MENUSTAT                    "STATISTIKA"
-#define TR_MENUDEBUG                   "DIAG"
-#define TR_MONITOR_CHANNELS            "MONITOR KANÁLŮ %d/%d"
+#define TR_MENULOGICALSWITCH           "Log.Spínač"
+#define TR_MENUSTAT                    "Štatistika"
+#define TR_MENUDEBUG                   "Diag"
+#define TR_MONITOR_CHANNELS            "Monitor Kanálov %d/%d"
 #define TR_MONITOR_OUTPUT_DESC         "Výstupy"
 #define TR_MONITOR_MIXER_DESC          "Mixy"
-#define TR_RECEIVER_NUM                TR("RX číslo", "Číslo přijímače")
-#define TR_RECEIVER                    "Přijímač"
-#define TR_MULTI_RFTUNE                TR("Ladění frek", "Jemné ladění frek. RF")
+#define TR_RECEIVER_NUM                TR("RX číslo", "Číslo prijímača")
+#define TR_RECEIVER                    "Prijímač"
+#define TR_MULTI_RFTUNE                TR("Ladenie frek", "Jemné ladenie frek. RF")
 #define TR_MULTI_RFPOWER               "RF výkon"
 #define TR_MULTI_WBUS                  "Výstup"
-#define TR_MULTI_TELEMETRY             "Telemetrie"
+#define TR_MULTI_TELEMETRY             "Telemetria"
 #define TR_MULTI_VIDFREQ               TR("Freq. videa", "Frekvence videa")
 #define TR_RF_POWER                    "Výkon RF"
 #define TR_MULTI_FIXEDID               TR("PevnéID", "Pevné ID")
 #define TR_MULTI_OPTION                TR("Možnosti", "Hodnota")
-#define TR_MULTI_AUTOBIND              TR("Bind Ch.","Bind při zapnutí")
-#define TR_DISABLE_CH_MAP              TR("No Ch. map", "Vypnout mapování kanálů")
-#define TR_DISABLE_TELEM               TR("No Telem", "Vypnout telemetrii")
-#define TR_MULTI_LOWPOWER              TR("Nízký výkon", "Režim nízkého výkonu")
-#define TR_MULTI_LNA_DISABLE           "LNA vypnuto"
+#define TR_MULTI_AUTOBIND              TR("Bind Ch.","Bind pri zapnutí")
+#define TR_DISABLE_CH_MAP              TR("No Ch. map", "Vypnúť mapovanie kanálov")
+#define TR_DISABLE_TELEM               TR("No Telem", "Vypnúť telemetriu")
+#define TR_MULTI_LOWPOWER              TR("Nízký výkon", "Režim nízkeho výkonu")
+#define TR_MULTI_LNA_DISABLE           "LNA vypnuté"
 #define TR_MODULE_TELEMETRY            TR("S.Port", "S.Port link")
-#define TR_MODULE_TELEM_ON             TR("Zap", "Zapnuto")
-#define TR_DISABLE_INTERNAL            TR("Vypnout int.", "Vypnout interní RF")
-#define TR_MODULE_NO_SERIAL_MODE       TR("Nesériový", "Není v sériovém režimu")
-#define TR_MODULE_NO_INPUT             TR("Žádný vstup", "Žádný sériový vstup")
-#define TR_MODULE_NO_TELEMETRY         TR3("Bez telemetrie", "Bez MULTI_TELEMETIE", "Nedetekována MULTI_TELEMETRIE")
-#define TR_MODULE_WAITFORBIND          "Párovat při zavedení protokolu"
-#define TR_MODULE_BINDING              TR("Bind...","Párování")
-#define TR_MODULE_UPGRADE_ALERT        TR3("Upg. needed", "Aktualizace modulu vyžadována", "Modul\naktualizace vyžadována")
-#define TR_MODULE_UPGRADE              TR("Upg. advised", "Aktualizace modulu doporučena")
-#define TR_REBIND                      "Nutno přepárovat"
-#define TR_REG_OK                      "Registrace OK"
-#define TR_BIND_OK                     "Úspěšné párovaní"
+#define TR_MODULE_TELEM_ON             TR("Zap", "Zapnuté")
+#define TR_DISABLE_INTERNAL            TR("Vypnúť int.", "Vypnúť interný RF")
+#define TR_MODULE_NO_SERIAL_MODE       TR("Nesériový", "Nie je v sériovom režime")
+#define TR_MODULE_NO_INPUT             TR("Žiadny vstup", "Žiadny sériový vstup")
+#define TR_MODULE_NO_TELEMETRY         TR3("Bez telemetrie", "Bez Multi_Telemetria", "Nedetekovaná Multi_Telemetria")
+#define TR_MODULE_WAITFORBIND          "Párovať pri zavedení protokolu"
+#define TR_MODULE_BINDING              TR("Bind...","Párovanie")
+#define TR_MODULE_UPGRADE_ALERT        TR3("Upg. needed", "Nutná aktualizácia modulu", "Modul\nnutná aktualizácia")
+#define TR_MODULE_UPGRADE              TR("Upg. advised", "Doporučuje sa aktualizácia modulu")
+#define TR_REBIND                      "Je nutné prepárovať"
+#define TR_REG_OK                      "Registrácia OK"
+#define TR_BIND_OK                     "Úspešné párovanie"
 #define TR_BINDING_CH1_8_TELEM_ON      "k1-8 telem ZAP"
 #define TR_BINDING_CH1_8_TELEM_OFF     "k1-8 telem VYP"
 #define TR_BINDING_CH9_16_TELEM_ON     "k9-16 telem ZAP"
 #define TR_BINDING_CH9_16_TELEM_OFF    "k9-16 telem VYP"
-#define TR_PROTOCOL_INVALID            TR("Špat. protokol", "Špatný protokol")
+#define TR_PROTOCOL_INVALID            TR("Nespr. protokol", "Nesprávny protokol")
 #define TR_MODULE_STATUS               TR("Stav", "Stav modulu")
 #define TR_MODULE_SYNC                 TR("Sync", "Proto Sync stav")
-#define TR_MULTI_SERVOFREQ             TR("Frekv. serva", "Obnovovací frekvence serva")
+#define TR_MULTI_SERVOFREQ             TR("Frekv. serva", "Obnovovacia frekvencia serva")
 #define TR_MULTI_MAX_THROW             TR("Max. Throw", "Povolit max. throw")
 #define TR_MULTI_RFCHAN                TR("RF Kanál", "Vybrat RF kanál")
 #define TR_GPS_COORDS_FORMAT           "GPS souřadnice"
