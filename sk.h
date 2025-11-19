@@ -38,7 +38,7 @@
 #define TR_QM_UI_SETUP                  "UI\nNastavenia"
 #define TR_QM_TOOLS                     "Nástroje"
 #define TR_QM_GEN_SETTINGS              "Hlavné\nNastavenia"
-#define TR_QM_FLIGHT_MODES              TR_SFC_AIR("Drive\nModes", "Flight\nModes")
+#define TR_QM_FLIGHT_MODES              TR_SFC_AIR("Drive\nModes", "Letové\nRežimy")
 #define TR_QM_INPUTS                    "Vstupy"
 #define TR_QM_MIXES                     "Mixy"
 #define TR_QM_OUTPUTS                   "Výstupy"
@@ -697,37 +697,37 @@
 #define TR_MODULE_STATUS               TR("Stav", "Stav modulu")
 #define TR_MODULE_SYNC                 TR("Sync", "Proto Sync stav")
 #define TR_MULTI_SERVOFREQ             TR("Frekv. serva", "Obnovovacia frekvencia serva")
-#define TR_MULTI_MAX_THROW             TR("Max. Throw", "Povolit max. throw")
-#define TR_MULTI_RFCHAN                TR("RF Kanál", "Vybrat RF kanál")
-#define TR_GPS_COORDS_FORMAT           "GPS souřadnice"
+#define TR_MULTI_MAX_THROW             TR("Max. Throw", "Povoliť max. throw")
+#define TR_MULTI_RFCHAN                TR("RF Kanál", "Vybrať RF kanál")
+#define TR_GPS_COORDS_FORMAT           "GPS súradnice"
 #define TR_VARIO                       "Vario"
 #define TR_PITCH_AT_ZERO               "Tón na nule"
-#define TR_PITCH_AT_MAX                "Tón na maximu"
-#define TR_REPEAT_AT_ZERO              TR("Opak. na nule", "Opakování na nule")
+#define TR_PITCH_AT_MAX                "Tón na maxime"
+#define TR_REPEAT_AT_ZERO              TR("Opak. na nule", "Opakovanie na nule")
 #define TR_BATT_CALIB                  "Kalib. bat."
 #define TR_CURRENT_CALIB               "+=\006Proud"
-#define TR_VOLTAGE                     "Napětí"
+#define TR_VOLTAGE                     "Napätie"
 #define TR_SELECT_MODEL                "Vyber model"
-#define TR_MANAGE_MODELS               "NASTAVENÍ MODELU"
+#define TR_MANAGE_MODELS               "Nastavenie Modelu"
 #define TR_MODELS                      "Modely"
-#define TR_SELECT_MODE                 "Vybrat mód"
+#define TR_SELECT_MODE                 "Vybrať mód"
 #define TR_CREATE_MODEL                "Nový model"
-#define TR_FAVORITE_LABEL              "Oblíbené"
-#define TR_MODELS_MOVED                "Nepoužívané modely přesunuty do"
+#define TR_FAVORITE_LABEL              "Obľúbené"
+#define TR_MODELS_MOVED                "Nepoužívané modely přesunuté do"
 #define TR_NEW_MODEL                   "Nový model"
 #define TR_INVALID_MODEL               "Neplatný model"
-#define TR_EDIT_LABELS                 "Upravit štítek"
-#define TR_LABEL_MODEL                 "Štítek modelu"
-#define TR_MOVE_UP                     "Posunout nahoru"
-#define TR_MOVE_DOWN                   "Posunout dolů"
-#define TR_ENTER_LABEL                 "Vložit štítek"
-#define TR_LABEL                       "Štítek"
+#define TR_EDIT_LABELS                 "Upraviť štítok"
+#define TR_LABEL_MODEL                 "Štítok modelu"
+#define TR_MOVE_UP                     "Posunúť hore"
+#define TR_MOVE_DOWN                   "Posunúť dole"
+#define TR_ENTER_LABEL                 "Vložiť štítok"
+#define TR_LABEL                       "Štítok"
 #define TR_LABELS                      "Štítky"
-#define TR_CURRENT_MODEL               "Aktuální"
-#define TR_ACTIVE                      "Aktivní"
+#define TR_CURRENT_MODEL               "Aktuálny"
+#define TR_ACTIVE                      "Aktívny"
 #define TR_NEW                         "Nový"
-#define TR_NEW_LABEL                   "Nový štítek"
-#define TR_RENAME_LABEL                "Přejmenovat štítek"
+#define TR_NEW_LABEL                   "Nový štítok"
+#define TR_RENAME_LABEL                "Premenovať štítok"
 #define TR_DELETE_LABEL                "Odstranit štítek"
 #define TR_DUPLICATE_MODEL             "Duplikovat model"
 #define TR_COPY_MODEL                  "Kopírovat"
